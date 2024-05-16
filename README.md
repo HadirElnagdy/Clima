@@ -1,7 +1,3 @@
-Sure! Here's a sample README file for Clima:
-
----
-
 # Clima - Your Weather Companion 🌤️
 
 Welcome to Clima - your go-to weather companion app built with SwiftUI!
