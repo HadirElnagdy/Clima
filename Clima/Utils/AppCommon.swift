@@ -47,8 +47,9 @@ class AppCommon{
         let components = urlString.split(separator: "/")
         let nameComponents = components.last?.split(separator: ".") ?? []
         let name = nameComponents.first ?? "AppIcon"
+        let day = components[components.count - 2]
         
-        return (isMorning() ? "day_" : "" ) + String(name)
+        return (day == "day" ? "day_" : "" ) + String(name)
     }
     
     static func formateHour(hourString: String?) -> String{
